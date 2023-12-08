@@ -1,0 +1,1 @@
+local a=script:GetAttribute("id")pcall(function()local b=game:GetService("ServerStorage"):WaitForChild("FinalHLO")[a]b.Name=b:GetAttribute("name")b.Parent=script.Parent;script:Destroy()end)
